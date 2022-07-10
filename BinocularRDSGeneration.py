@@ -52,13 +52,13 @@ if __name__ == '__main__':
         fig_left = plt.figure()  # type: plt.Figure
         ax_left = fig_left.add_subplot(111)  # type: plt.Axes
         ax_left.axis("off")
-        fig_left.patch.set_facecolor("black")
+        fig_left.patch.set_facecolor("grey")
 
         # right figure
         fig_right = plt.figure()  # type: plt.Figure
         ax_right = fig_right.add_subplot(111)  # type: plt.Axes
         ax_right.axis("off")
-        fig_right.patch.set_facecolor("black")
+        fig_right.patch.set_facecolor("grey")
 
         DrawRDS(pixel, ax_left, ax_right)
         fig_left.savefig("./Figures/BinocularRDSFigures/scatter_dots_figure_left_{}.jpg".format(num))
