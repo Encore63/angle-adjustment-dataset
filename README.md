@@ -1,5 +1,5 @@
-# Angle Adjust 数据集 
-简介：本系列程序用于生成angle adjust的相关数据集
+# Angle Adjustment 数据集 
+简介：本系列程序用于生成angle adjustment数据集
 
 ## 使用说明：  
 **1. 图片的生成：**  
